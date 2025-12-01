@@ -1,94 +1,75 @@
-little diddle tweaks
+# PC Tweak App ⚡
 
-a free windows utility to safely optimize your system for gaming, especially for fortnite, by applying performance, gaming, network, and system tweaks. includes optional advanced tweaks for experienced users.
+![Windows](https://img.shields.io/badge/OS-Windows-blue)
+![.NET](https://img.shields.io/badge/.NET-4.7.2+-green)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-features
-Performance Tweaks
+A free Windows utility to safely optimize your PC for gaming, with optional advanced tweaks for experienced users.
 
-enable ultimate performance power plan
+---
 
-disable CPU core parking / power throttling
+## Features
 
-set visual effects to best performance
+### 🖥 Performance Tweaks
+- Ultimate Performance Power Plan
+- Disable CPU core parking / power throttling
+- Set visual effects to best performance
+- Safe Fortnite process priority boost
+- Hardware-accelerated GPU scheduling
 
-safely boost fortnite process priority
+### 🎮 Gaming / Latency Optimization
+- Windows Game Mode
+- Disable fullscreen optimizations
+- High-performance GPU preference
 
-enable hardware-accelerated GPU scheduling
+### 🧹 Cleanup / System Maintenance
+- Clear temp files
+- Pagefile / virtual memory adjustments (optional)
+- Disable unnecessary indexing services
 
-Gaming / Latency Optimization
+### 🌐 Networking
+- Flush DNS cache
+- Safe TCP optimizations
 
-enable windows game mode
+### ⚙ Background Services
+- Disable non-critical Windows services (print spooler, maps broker, etc.)
+- Disable Xbox Game Bar / Game DVR
 
-disable fullscreen optimizations
+### ☢️ Risky / Advanced Tweaks (use with caution)
+- Disable dynamic tick / timer coalescing
+- Disable memory compression / aggressive pagefile tweaks
+- Modify driver interrupt settings / affinity
+- Disable Windows security / telemetry
+- Max out hardware (disable CPU/GPU throttling)
 
-set high-performance GPU preference
+### 🛡 Safety Features
+- Create a system restore point before risky tweaks
 
-Cleanup / System Maintenance
+---
 
-clear temporary files
+## Installation / Requirements
+- Windows 10 / 11
+- .NET Framework 4.7.2+
+- Admin privileges required for most tweaks
+- Visual Studio for building
 
-adjust pagefile / virtual memory (optional)
+---
 
-disable unnecessary indexing services
+## Usage
+1. Run the app **as administrator**
+2. Select a category tab
+3. Click the tweaks you want to apply
+4. Optional: create a system restore point before risky tweaks
+5. Restart if prompted
 
-Networking / Online Performance
+---
 
-flush DNS cache
+## ⚠ Warnings
+- Risky tweaks can cause instability, overheating, or data loss
+- Always create a system restore point first
+- Some tweaks may have limited effect on laptops or older hardware
 
-apply safe TCP optimizations
+---
 
-Background Services / System Tasks
-
-disable non-critical windows services (print spooler, maps broker, etc.)
-
-disable Xbox Game Bar / Game DVR
-
-Risky / Advanced Tweaks (use with caution)
-
-disable dynamic tick / timer coalescing
-
-disable memory compression / aggressive pagefile tweaks
-
-modify driver interrupt settings / affinity
-
-disable Windows security / telemetry
-
-max out hardware by disabling CPU/GPU throttling
-
-Safety Features
-
-Create a system restore point before applying risky tweaks
-
-installation / requirements
-
-.NET Framework 4.7.2 (or later)
-
-Visual Studio for building the project
-
-Admin privileges are required for most tweaks
-
-Compatible with Windows 10 / 11
-
-usage
-
-launch the app as administrator
-
-select a category tab
-
-click the buttons for tweaks you want to apply
-
-optionally create a restore point before risky tweaks
-
-restart your system if prompted
-
-warnings
-
-risky tweaks can cause instability, overheating, or data loss. use only if you understand the consequences.
-
-always create a system restore point before applying risky changes.
-
-some tweaks may have limited effect on laptops or older hardware.
-
-license
-
-MIT License — free to use, modify, and share. use responsibly.
+## License
+MIT License — free to use, modify, and share responsibly
